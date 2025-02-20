@@ -1,0 +1,742 @@
+[
+  {
+    "id": 1,
+    "title": "Data Privacy",
+    "image": "../images/data.jpg",
+    "description": "Data privacy, also called information privacy, is the principle that a person should have control over their personal data including the ability to decide how organizations collect, store and use their data. (Resource: ibm.com)",
+    "video": "https://www.youtube.com/watch?v=KjX7CT6M1x8",
+    "subtopics": [
+      {
+        "mainTitle": "Importance of data privacy",
+        "mainImage": "../images/data-privacy/importance-data.jpg",
+        "items": [
+          {
+            "title": "Protection of Personal Information",
+            "description": "Data privacy safeguards individuals' personal information from unauthorized access, ensuring that sensitive data such as social security numbers, financial records, and health information remains secure. By maintaining control over their personal data, individuals can mitigate the risks of identity theft, fraud, and other malicious activities.",
+            "itemImage": "../images/data-privacy/ppi.png"
+          },
+          {
+            "title": "Legal and Regulatory Compliance",
+            "description": "Various data protection laws and regulations, such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA), require organizations to implement measures to protect individuals' data privacy rights. Compliance with these regulations helps businesses avoid legal repercussions, hefty fines, and damage to their reputation.",
+            "itemImage": "../images/data-privacy/lrc-2.png"
+          },
+          {
+            "title": "Ethical Data Practices",
+            "description": "Respecting data privacy is an ethical responsibility. Organizations that handle data must ensure they have proper consent for data collection, use, and sharing. By adhering to ethical data practices, businesses show their commitment to respecting individuals' rights and promoting transparency in their operations.",
+            "itemImage": "../images/data-privacy/edp.png"
+          },
+          {
+            "title": "Data-driven Innovation",
+            "description": "Data privacy is not just about protection; it also fuels innovation. When individuals trust that their data will be handled responsibly, they are more likely to willingly share information. This data, in turn, can be used to derive valuable insights, drive personalized experiences, and advance research and development across various industries.",
+            "itemImage": "../images/data-privacy/ddi.png"
+          },
+          {
+            "title": "Preserving Individual Autonomy",
+            "description": "Data privacy empowers individuals to maintain control over their personal information. It allows them to decide how their data is collected, used, and shared. By respecting individuals' autonomy, data privacy ensures that personal information is not exploited or misused without consent.",
+            "itemImage": "../images/data-privacy/pia.png"
+          }
+        ],
+        "references": "(Resource: Integrate.io)"
+      },
+      {
+        "mainTitle": "Data Privacy Act of 2012",
+        "mainImage": "../images/data-privacy/data-law1.jpg",
+        "mainDescription": "Officially known as Republic Act No. 10173, is a comprehensive law that protects individual personal information in information and communication systems in both the government and the private sector. The Act defines data privacy and outlines the principles for processing personal information, including transparency, legitimate purpose, and proportionality. It aims to ensure the protection of privacy while facilitating the free flow of information to promote innovation and growth.",
+        "items": [
+          {
+            "title": "Definition of Personal Information",
+            "description": "Personal information is any information from which the identity of an individual is apparent or can be reasonably and directly ascertained by the entity holding the information, or when put together with other information would directly and certainly identify an individual​",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "General Data Privacy Principles:",
+            "description": "The processing of personal information must adhere to the principles of transparency, legitimate purpose, and proportionality. This means that personal information should be processed fairly and lawfully, collected for specified and legitimate purposes, and adequate, relevant, and not excessive in relation to the purposes for which it is processed​​",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Rights of Data Subjects:",
+            "description": "The Act provides data subjects (individuals whose personal information is processed) with rights such as the right to be informed, the right to object, the right to access, the right to correct, and the right to erasure or blocking of personal information.​",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "National Privacy Commission:",
+            "description": "The Act establishes the National Privacy Commission, which is responsible for administering and implementing the provisions of the Act, ensuring compliance, and handling complaints regarding data privacy violations.​",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Security Measures:",
+            "description": "Personal information controllers and processors are required to implement appropriate organizational, physical, and technical measures to protect personal information against any accidental or unlawful destruction, alteration, and disclosure, as well as against any other unlawful processing",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Confidentiality",
+            "description": "The Act emphasizes the confidentiality of personal information and ensures that it is only accessed and used for legitimate purposes and with the consent of the data subject​",
+            "itemImage": ""
+          }
+        ],
+        "references": "Republic Act No. 10173 (Data Privacy Act of 2012)"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Hacking",
+    "image": "../images/hacking.jpg",
+    "description": "Refers to the use of technologies such as computers, smartphones, tablets, and networks to harm or destroy systems, collect information about users, steal data and documents, or disrupt data-related activity. Bad actors typically hack websites or systems for four reasons: (1) financial gain through credit card theft or defrauding financial services, (2) corporate espionage, (3) to gain notoriety or respect for their hacking abilities, and (4) state-sponsored hacking aimed at stealing business and national intelligence.",
+    "video": "https://www.youtube.com/watch?v=emPBoPVnog0",
+    "subtopics": [
+      {
+        "mainTitle": "Kinds of Hacker",
+        "mainImage": "../images/data-privacy/importance-data.jpg",
+        "items": [
+          {
+            "title": "Black-hat hackers",
+            "description": "Black-hat hackers are the bad guys in the hacking community. They go out of their way to find weaknesses in computer systems and software in order to exploit them for financial gain or more nefarious goals, such as gaining reputation, carrying out business espionage, or participating in a nation-state hacking operation. These persons' activities can have major consequences for both computer users and the companies for which they work. They can steal sensitive personal information, corrupt computer and financial systems, and change or disable the operation of websites and vital networks.",
+            "itemImage": "../images/hacking/bh.png"
+          },
+          {
+            "title": "White-hat hackers",
+            "description": "White-hat hackers are the good guys who use proactive hacking to prevent black-hat hackers from succeeding. They utilize their technical expertise to break into networks in order to examine and test network security, a practice known as ethical hacking. This helps to disclose flaws in systems before black-hat hackers can find and exploit them. White-hat hackers utilize tactics similar to, if not identical to, black-hat hackers, however these individuals are recruited by corporations to test and find possible vulnerabilities in their security systems.",
+            "itemImage": "../images/hacking/wh.png"
+          },
+          {
+            "title": "Grey-hat hackers",
+            "description": "Grey-hat hackers are midway between the good and bad folks. Unlike black-hat hackers, they strive to breach rules and principles but do not plan to do harm or profit monetarily. Their acts are usually done out for the greater benefit. For example, they may exploit a vulnerability to increase knowledge of its existence, but unlike white-hat hackers, they do it in public. This notifies malevolent actors about the vulnerability.",
+            "itemImage": "../images/hacking/gh.png"
+          }
+        ],
+        "references": "(Resource: Integrate.io)"
+      },
+      {
+        "mainTitle": "Prevention of Getting Hacked",
+        "mainImage": "../images/data-privacy/importance-data.jpg",
+        "items": [
+          {
+            "title": "Software Update",
+            "description": "Hackers are continuously looking for new security flaws or holes that have not yet been discovered or addressed. As a result, both software and operating system updates are critical in preventing hackers from targeting people and companies. They must allow automatic updates and keep all of their devices and apps up to date with the newest software versions.",
+            "itemImage": "../images/hacking/su.png"
+          },
+          {
+            "title": "Use different passwords for different accounts",
+            "description": "Data leaks and cyberattacks are most often caused by weak passwords or account credentials, as well as improper password policies. It is critical not only to pick strong passwords that are difficult for hackers to crack, but also to avoid using the same password for many accounts. Using unique passwords is critical for decreasing hackers' effectiveness.",
+            "itemImage": "../images/hacking/dp.png"
+          },
+          {
+            "title": "HTTPS Encryption",
+            "description": "Another prevalent kind of data theft is spoofing, which occurs when hackers establish a fake website that appears to be real but actually steals users' credentials. It is critical to search for the Hypertext Transfer Protocol Secure (HTTPS) prefix at the beginning of a website URL. For example, https://www.fortinet.com.",
+            "itemImage": "../images/hacking/http.png"
+          },
+          {
+            "title": "Avoid clicking on ads or strange links",
+            "description": "Hackers frequently employ advertisements, such as pop-up adverts. When clicked, they cause the user to unintentionally download malware or spyware on their device. Links should be approached with caution, and unusual links in email messages or on social media, in particular, should never be clicked. Hackers can use them to put malware on a device or redirect visitors to counterfeit websites.",
+            "itemImage": "../images/hacking/ads.png"
+          },
+          {
+            "title": "Change the default username and password on your router and smart devices",
+            "description": "Routers and smart devices provide default users and passwords. However, because suppliers ship millions of devices, there is a risk that the credentials are not unique, increasing the likelihood of hackers hacking into them. It is preferable to use a unique login and password combination for these devices.",
+            "itemImage": "../images/hacking/du.png"
+          }
+        ],
+        "references": "Fortinet"
+      },
+      {
+        "mainTitle": "Law Enforcement Authorities",
+        "mainImage": "../images/hacking/hacking-law-auth.jpg",
+        "items": [
+          {
+            "title": "Cybercrime Prevention Act of 2012 Section 9",
+            "description": "The National Bureau of Investigation (NBI) and the Philippine National Police (PNP) are responsible for the effective enforcement of the law. Both organizations are mandated to create specialized cybercrime units to handle cases involving violations of the Act​",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Cybercrime Prevention Act of 2012 Section 10",
+            "description": "The NBI and PNP cybercrime units have the authority to investigate all cybercrimes, conduct data recovery, and forensic analysis, and provide technological support to other investigative units. They are also responsible for seizing and preserving evidence, which is crucial for detaining hackers",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Powers and Functions of Law Enforcement Authorities",
+            "description": "Law enforcement authorities have the power to conduct searches and seizures of computer systems and other electronic evidence. This involves preserving and analyzing data crucial for building cases against hackers​. They are also empowered to provide testimonies and develop relations with public and private sectors to address cybercrimes effectively, enhancing their ability to detain suspects​",
+            "itemImage": ""
+          }
+        ],
+        "references": "Republic Act No. 10175 (Cybercrime Prevention Act of 2012)."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Identity Theft",
+    "image": "../images/theft.jfif",
+    "description": "Identity theft occurs when someone steals your identity and personal information (such as your social security number) and uses it without your consent to create new accounts, access current accounts, or seek medical services.  When an identity thief is apprehended, he may even provide law enforcement agents with your name and identity.",
+    "video": "https://www.youtube.com/watch?v=aorPsj3e8ug",
+    "subtopics": [
+      {
+        "mainTitle": "Types of Identity Theft",
+        "mainImage": "../images/data-privacy/importance-data.jpg",
+        "items": [
+          {
+            "title": "Credit identity theft",
+            "description": "Credit identity theft occurs when a criminal uses your personal information, such as your birthdate and Social Security number, to apply for a new credit line. Warning signs: unusual adjustment in your credit scores or the appearance of an unfamiliar account on your credit reports. You may get debt collection notifications or a court judgment against you. The easiest way to avoid this is to freeze your credit.",
+            "itemImage": "../images/identity/ct.png"
+          },
+          {
+            "title": "Child identity theft",
+            "description": "Criminals take a child's identity and apply for credit using the child's name. It is often not revealed until after the victim applies for student loans or other forms of credit. Warning signs: If your youngster receives credit card offers or phone calls regarding late payments or debt collection, investigate. To prevent this from happening, you can freeze.",
+            "itemImage": "../images/identity/child.png"
+          },
+          {
+            "title": "Synthetic identity theft",
+            "description": "Synthetic identity theft occurs when thieves employ a patchwork of identification facts to create a synthetic consumer, such as a Social Security number that is not yet in the credit agencies' database, and merging it with a name and address. They then seek for loans and credit cards, frequently paying for years as their credit limits increase. Then there's a \"bust out,\" in which cards are maxed out and the crooks vanish. Warning signs: If you attempt to freeze your child's credit and learn that their Social Security number is already in use. Often, it is revealed when the youngster applies for college loans. It is not always prevented, because criminals may create and use a Social Security number before it is assigned.",
+            "itemImage": "../images/identity/st.png"
+          },
+          {
+            "title": "Tax payer identity theft",
+            "description": " Fraudsters may use a Social Security number to make a tax return and steal your refund or tax credit. Warning signs: unable to e-file because someone else has previously filed under that Social Security number, receiving an IRS warning or letter mentioning behavior you were unaware of, or IRS records indicating that you worked for a company you did not. Filing early will help you beat crooks to filing in your name, and some states provide six-digit identity protection PINs (after rigorous verification) for further security.",
+            "itemImage": "../images/identity/tax.png"
+          },
+          {
+            "title": "Medical identity theft",
+            "description": "Using someone else's identity to obtain health-care services is considered medical identity theft. It is especially harmful since it can lead to confused medical histories, providing doctors and hospitals with incorrect information when making health-care decisions. Warning signs: Claims or payments on your insurance explanation of benefits that you do not recognize may indicate that someone is utilizing your health care coverage. If you have been a victim, you must disclose it to your insurance company as well as your health care team to ensure that the information in your records is yours.",
+            "itemImage": "../images/identity/mt.png"
+          },
+          {
+            "title": "Account takeover",
+            "description": "Criminals exploit personal information to get access to your financial accounts and then change passwords or addresses, preventing you from accessing them. Warning signs: an email, letter, or text from your financial institution referencing an action (such as a password or email change) or transaction that you do not recognize.",
+            "itemImage": "../images/identity/acct.png"
+          },
+          {
+            "title": "Criminal identity theft",
+            "description": "Criminal identity theft happens when a person provides law enforcement with another person's name and address during an arrest or inquiry. This is frequently accomplished with fraudulent identity, such as a forged driver's license. Warning signs: You may be held by a police officer for reasons unknown to you, or you may be refused work or advancement due to information discovered during a background check. ",
+            "itemImage": "../images/identity/crim.png"
+          }
+        ]
+      },
+      {
+        "mainTitle": "Ways Identity Theft Happens",
+        "mainImage": "../images/data-privacy/importance-data.jpg",
+        "items": [
+          {
+            "title": "Lost Wallet",
+            "description": "When your wallet is lost or stolen, someone else may have access to all the information within. Do not carry your Social Security card or more credit cards than you use on a regular basis, and do not maintain a list of passwords and access codes in your wallet. Make photocopies of your credit cards, both front and back, and store them in a safe place so that you may immediately contact the issuer if a card or wallet is missing. Some issuers enable you to temporarily \"turn off\" a lost card, while others require you to cancel and get a new card made.",
+            "itemImage": "../images/identity/wallet.png"
+          },
+          {
+            "title": "Mailbox Theft",
+            "description": "Someone just takes your mail or passes it to another address, and you suddenly cease receiving most letters. Register for USPS Informed Delivery. You will receive an email with photographs of the products that should be sent to you, so you can see if anything is missing. Select a secure mailbox and get mail immediately.",
+            "itemImage": "../images/identity/mail.png"
+          },
+          {
+            "title": "Using Public WiFi",
+            "description": "When you utilize free public Wi-Fi, hackers may be able to monitor what you're doing. Avoid using public Wi-Fi for shopping, banking, or other important transactions. If you decide to utilize public Wi-Fi, use a virtual private network provider to ensure a secure connection.",
+            "itemImage": "../images/identity/wifi.png"
+          },
+          {
+            "title": "SIM Card Swap",
+            "description": "This is when someone takes control of your phone number. You may cease receiving calls and messages, or you may receive a notification indicating your phone has been enabled. Set up a PIN or password for your cellular account. Consider employing an authentication app for accounts that include sensitive financial data.",
+            "itemImage": "../images/identity/sim.png"
+          },
+          {
+            "title": "Skimming",
+            "description": "Skimming is the process of obtaining credit card information, usually via a tiny device, when a credit card is used at a physical place, such as a petrol pump or an ATM. Use cards with chips for enhanced security. Pay inside the petrol station if possible, because skimming devices are more likely to be installed at unmonitored payment locations. Set up email or SMS notifications to notify you when your credit cards are used, so you may detect fraudulent behavior early. If a card is used without your authorization, contact.",
+            "itemImage": "../images/identity/skim.png"
+          },
+          {
+            "title": "Phone Scams",
+            "description": "You may be informed that you have won something or that you are in risk of getting jailed. The caller claims to require personal, financial, or credit information in order to authenticate your identification or determine where to pay your money. Do not give out personal information over the telephone. Be careful of frequent telephone scams. The IRS, for example, does not approach taxpayers by phone (or email or social media) to obtain personal or financial information, nor does it threaten arrest or legal action. ",
+            "itemImage": "../images/identity/phone.png"
+          },
+          {
+            "title": "Looking Over Your Shoulder",
+            "description": "Fraudsters may learn a password just by watching your fingers type it in. Your credit card information can be captured with a smartphone as you shop online in public. A company may leave sensitive information where others may see it. (1) Stay alert of your surroundings. (2) Avoid leaving cards visible. (3) Cover your hand when entering passwords or codes.",
+            "itemImage": "../images/identity/look.png"
+          }
+        ],
+        "references": "(Resource: NedWallet)"
+      },
+      {
+        "mainTitle": "Cybercrime Act 2012 - Identity theft ",
+        "mainImage": "../images/identity/file.jpg",
+        "items":[
+          {
+            "title": "Section 10: Investigation and Enforcement",
+            "description": "These cybercrime units have the authority to investigate cybercrimes, conduct data recovery, forensic analysis, and seize electronic evidence. This allows them to track down and detain individuals involved in identity theft. ",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Section 12: Preservation and Collection of Data ",
+            "description": "Service providers are required to preserve the integrity of traffic data and subscriber information for a minimum of six months, and this can be extended for another six months if needed for an investigation. This ensures that data crucial for identifying and prosecuting identity thieves is available to law enforcement​.",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Section 13: Preservation and Collection of Data",
+            "description": "Law enforcement authorities, with a court warrant, can collect or record computer data. Service providers must cooperate with these orders, helping authorities to gather evidence against identity thieves.",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Section 14: Disclosure of Computer Data:",
+            "description": "Law enforcement can require service providers to disclose subscriber information, traffic data, or relevant data within 72 hours from receipt of an order. This is vital for quickly identifying and acting against perpetrators of identity theft​",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Section 15: Search, Seizure, and Examination:",
+            "description": "Law enforcement authorities, under a search and seizure warrant, can search and seize computer data, secure computer systems, and conduct forensic analysis. These powers are essential for investigating and prosecuting identity theft cases​",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Section 16: Custody and Integrity of Data",
+            "description": "All computer data examined under a proper warrant must be deposited with the court within 48 hours after the expiration of the period fixed in the warrant. This ensures the integrity and legal handling of evidence collected in identity theft cases​​.",
+            "itemImage": ""
+          }
+        ],
+        "references": "Republic Act No. 10175 (Cybercrime Prevention Act of 2012)."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Malware Attack",
+    "image": "../images/cyberlibel.jpeg",
+    "description": "Malware attacks are any type of malicious software designed to cause harm or damage to a computer, server, client or computer network and/or infrastructure without end-user knowledge. Cyber attackers create, use and sell malware for many different reasons, but it is most frequently used to steal personal, financial or business information.",
+    "video": "https://www.youtube.com/watch?v=Bvqyg51Czdk",
+    "subtopics": [
+      {
+        "mainTitle": "Types of Malware Attacks",
+        "mainImage": "../images/data-privacy/importance-data.jpg",
+        "items": [
+          {
+            "title": "Virus",
+            "description": "The most common type of malware that can execute itself and spread by infecting other programs or files.",
+            "itemImage": "../images/malware/vir.png"
+          },
+          {
+            "title": "Worm",
+            "description": "Self-replicate without a host program and typically spreads without any interaction from the malware authWorm ors.",
+            "itemImage": "../images/malware/worm.png"
+          },
+          {
+            "title": "Trojan horse ",
+            "description": "Designed to appear as a legitimate software program to gain access to a system. Once activated following installation, Trojans can execute their malicious functions.",
+            "itemImage": "../images/malware/tro.png"
+          },
+          {
+            "title": "Spyware",
+            "description": "Collects information and data on the device and user, as well as observes the user's activity without their knowledge.",
+            "itemImage": "../images/malware/spy.png"
+          },
+          {
+            "title": "Ransomware",
+            "description": "Infects a user's system and encrypts its data. Cybercriminals then demand a ransom payment from the victim in exchange for decrypting the system's data.",
+            "itemImage": "../images/malware/vir.png"
+          },
+          {
+            "title": "Rootkit",
+            "description": "Obtains administrator-level access to the victim's system. Once installed, the program gives threat actors root or privileged access to the system.",
+            "itemImage": "../images/malware/root.png"
+          },
+          {
+            "title": "Backdoor virus or remote access Trojan (RAT)",
+            "description": "Secretly creates a backdoor into an infected computer system that enables threat actors to remotely access it without alerting the user or the system's security programs.",
+            "itemImage": "../images/malware/rat.png"
+          },
+          {
+            "title": "Adware",
+            "description": "Tracks a user's browser and download history with the intent to display pop-up or banner advertisements that lure the user into making a purchase. For example, an advertiser might use cookies to track the webpages a user visits to better target advertising.",
+            "itemImage": "../images/malware/adware.png"
+          },
+          {
+            "title": "Keyloggers",
+            "description": "Also called system monitors, track nearly everything a user does on their computer. This includes emails, opened webpages, programs and keystrokes",
+            "itemImage": "../images/malware/key.png"
+          }
+        ],
+        "references": "(Resource: TechTarget)"
+      },
+      {
+        "mainTitle": "List of Security Tips for Malware Prevention",
+        "mainImage": "../images/data-privacy/importance-data.jpg",
+        "items": [
+          {
+            "title": "Install anti-virus and anti-spyware software.",
+            "description": "Anti-virus and anti-spyware programs scan computer files to identify and remove malware. Keep your security tools updated. Immediately remove detected malware. Audit your files for missing data, errors, and unauthorized additions.",
+            "itemImage": "../images/malware/software.png"
+          },
+          {
+            "title": "Use secure authentication methods.",
+            "description": "Require strong passwords with at least eight characters, including an uppercase letter, a lowercase letter, a number and a symbol in each password. Enable multi-factor authentication, such as a PIN or security questions in addition to a password. Never save passwords on a computer or network. Use a secure password manager if needed.",
+            "itemImage": "../images/malware/auth.png"
+          },
+          {
+            "title": "Keep software updated.",
+            "description": "No software package is completely safe against malware. However, software vendors regularly provide patches and updates to close whatever new vulnerabilities show up. As a best practice, validate and install all new software patches.",
+            "itemImage": "../images/malware/soft.png"
+          },
+          {
+            "title": "Limit application privileges.",
+            "description": "A hacker only needs an open door to infiltrate your business. Limit the number of possible entryways by restricting application privileges on your devices. Allow only the application features and functions that are absolutely necessary to get work done.",
+            "itemImage": "../images/malware/limit.png"
+          },
+          {
+            "title": "Implement email security and spam protection.",
+            "description": "Email is an essential business communication tool, but it’s also a common malware channel. To reduce the risk of infection. Scan all incoming email messages, including attachments, for malware. Set spam filters to reduce unwanted emails. Limit user access to only company-approved links, messages and email addresses.",
+            "itemImage": "../images/malware/email.png"
+          },
+          {
+            "title": "Educate your users.",
+            "description": "At the end of the day, people are the best line of defense. By continually educating users, you can help reduce the risk that they will be tricked by phishing or other tactics and accidentally introduce malware into your network. In particular:",
+            "itemImage": "../images/malware/edu.png"
+          }
+        ],
+        "references": "Netwrix"
+      },
+      {
+        "mainTitle":"Punishable Acts for Committing Malware Crime",
+        "mainImage":"../images/malware/anti-malware.jpg",
+        "items":[
+          {
+            "title": "Illegal Access & Illegal Interception",
+            "description": "Illegal Access: Accessing the whole or any part of a computer system without right. Illegal Interception: Interception made by technical means and without right of any non-public transmission of computer data to, from, or within a computer system, including electromagnetic emissions from a computer system carrying such computer data. ",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Data Interference",
+            "description": "Data Interference: The intentional or reckless alteration, damaging, deletion, or deterioration of computer data, electronic documents, or electronic data messages without right, including the introduction or transmission of viruses.",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "System Interference",
+            "description": "The intentional alteration or reckless hindering or interference with the functioning of a computer or computer network by inputting, transmitting, damaging, deleting, deteriorating, altering, or suppressing computer data or programs, electronic documents, or electronic data messages without right or authority, including the introduction or transmission of viruses.",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Misuse of Devices:",
+            "description": "The use, production, sale, procurement, importation, distribution, or otherwise making available, intentionally and without right, of any of the following: A device, including a computer program, designed or adapted primarily for the purpose of committing any of the offenses under this section.A computer password, access code, or similar data by which the whole or any part of a computer system is capable of being accessed, with the intent that it be used for the purpose of committing any of the offenses under this section.",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Penalties",
+            "description": "The penalties for these acts include imprisonment of prision mayor or fines ranging from Two Hundred Thousand Pesos (P200,000.00) to a maximum amount commensurate with the damage incurred, or both​",
+            "itemImage": ""
+          }
+        ],
+        "references": "Republic Act No. 10175 (Cybercrime Prevention Act of 2012)."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Data Breach",
+    "image": "../images/cyberbully.jpeg",
+    "description": "A data breach is an incident where information is stolen or taken from a system without the knowledge or authorization of the system’s owner. A small company or large organization may suffer a data breach. Stolen data may involve sensitive, proprietary, or confidential information such as credit card numbers, customer data, trade secrets, or matters of national security.",
+    "video": "https://www.youtube.com/watch?v=NeUmClyrwBs",
+    "subtopics": [
+      {
+        "mainTitle": "How do Data Breaches Happen?",
+        "mainImage": "../images/data-privacy/importance-data.jpg",
+        "items": [
+          {
+            "title": "Accidental Insider:",
+            "description": "An example would be an employee using a co-worker's computer and reading files without having the proper authorization permissions. The access is unintentional, and no information is shared. However, because it was viewed by an unauthorized person, the data is considered breached.",
+            "itemImage": "../images/breach/acci.png"
+          },
+          {
+            "title": "Malicious Insider",
+            "description": "This person purposely accesses and/or shares data with the intent of causing harm to an individual or company. The malicious insider may have legitimate authorization to use the data, but the intent is to use the information in nefarious ways.",
+            "itemImage": "../images/breach/mali.png"
+          },
+          {
+            "title": "Lost or Stolen Devices",
+            "description": "An unencrypted and unlocked laptop or external hard drive — anything that contains sensitive information — goes missing.",
+            "itemImage": "../images/breach/lost.png"
+          },
+          {
+            "title": "Malicious Outside Criminals",
+            "description": "These are hackers who use various attack vectors to gather information from a network or an individual.",
+            "itemImage": "../images/breach/mali-crim.png"
+          }
+        ]
+      },
+      {
+        "mainTitle": "How to Prevent Data Breach?",
+        "mainImage": "../images/data-privacy/importance-data.jpg",
+        "items": [
+          {
+            "title": "Patch and Update Software",
+            "description": "Patching and updating software as soon as options are available.",
+            "itemImage": "../images/breach/pat.png"
+          },
+          {
+            "title": "Encrypt Sensitive Data",
+            "description": "High-grade encryption for sensitive data.",
+            "itemImage": "../images/breach/encry.png"
+          },
+          {
+            "title": "Upgrade Unsupported Devices",
+            "description": "Upgrading devices when the software is no longer supported by the manufacturer.",
+            "itemImage": "../images/breach/upgrade.png"
+          },
+          {
+            "title": "Enforce BYOD Security Policies",
+            "description": "Enforcing BYOD security policies, like requiring all devices to use a business-grade VPN service and antivirus protection.",
+            "itemImage": "../images/breach/enforce.png"
+          },
+          {
+            "title": "Enforce Strong Credentials and MFA",
+            "description": "Enforcing strong credentials and multi-factor authentication to encourage better user cybersecurity practices. Encouraging users to start using a password manager can help.",
+            "itemImage": "../images/breach/mfa.png"
+          },
+          {
+            "title": "Educate on Security Practices",
+            "description": "Educating employees on best security practices and ways to avoid socially engineered attacks.",
+            "itemImage": "../images/breach/educ.png"
+          }
+        ]
+      },
+      {
+        "mainTitle":"Punishable Acts for Committing Data Breach",
+        "mainImage":"../images/breach/anti-breach.jpg",
+        "items":[
+          {
+            "title": "Section 29: Unauthorized Access or Intentional Breach:",
+            "description": "Imprisonment ranging from one (1) year to three (3) years. A fine of not less than Five hundred thousand pesos (Php500,000.00) but not more than Two million pesos (Php2,000,000.00)​(DPA-of-2012)​",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Section 26(b): Negligent Access",
+            "description": "The improper disposal of personal information shall be penalized by imprisonment ranging from six months to two years and a fine of PHP 100,000 to PHP 500,000 shall be imposed on persons who knowingly or negligently dispose, discard or abandon the personal information of an individual in an area accessible to the public or has otherwise placed the personal information of an individual in its container for trash collection.",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Section 27(b): Improper Disposal of Sensitive Personal Information:",
+            "description": "The improper disposal of personal information shall be penalized by imprisonment ranging from six months to two years and a fine of PHP 100,000 to PHP 500,000 shall be imposed on persons who knowingly or negligently dispose, discard or abandon the personal information of an individual in an area accessible to the public or has otherwise placed the personal information of an individual in its container for trash collection.",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Section 28: Processing of Personal Information and Sensitive Personal Information for Unauthorized Purposes",
+            "description": "The processing of personal information for unauthorized purposes shall be penalized by imprisonment ranging from one year and six months to five years and a fine of PHP 500,000 to PHP 1,000,000 shall be imposed on persons processing personal information for purposes not authorized by the data subject, or otherwise authorized under the DPA or under existing laws. The processing of sensitive personal information for unauthorized purposes shall be penalized by imprisonment ranging from two to seven years and a fine of PHP 500,000 to PHP 2,000,000 shall be imposed on persons processing sensitive personal information for purposes not authorized by the data subject, or otherwise authorized under the DPA or under existing laws.",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Section 30: Concealment of Security Breaches",
+            "description": "The penalty of imprisonment of one year and six months to five years and a fine of PHP 500,000 to PHP 1,000,000 shall be imposed on persons who, after having knowledge of a security breach and of the obligation to notify the NPC, intentionally or by omission conceals the fact of such security breach.",
+            "itemImage": ""
+          }
+        ],
+        "references": "Republic Act No. 10173 (Data Privacy Act of 2012)."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Phishing",
+    "image": "../images/phishing.jfif",
+    "description": " A cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data such as personally identifiable information, banking and credit card details, and passwords.",
+    "video": "https://www.youtube.com/watch?v=XBkzBrXlle0",
+    "subtopics": [
+      {
+        "mainTitle": "Types of Phishing Attacks",
+        "mainImage": "../images/data-privacy/importance-data.jpg",
+        "items": [
+          {
+            "title": "Email phishing",
+            "description": "Attackers generally aim to steal account credentials, personally identifiable information (PII) and corporate trade secrets. However, attackers targeting a specific business might have other motives.",
+            "itemImage": "../images/phishing/em.png"
+          },
+          {
+            "title": "Spear phishing",
+            "description": "These email messages are sent to specific people within an organization, usually high-privilege account holders, to trick them into divulging sensitive data, sending the attacker money or downloading malware.",
+            "itemImage": "../images/phishing/spear.png"
+          },
+          {
+            "title": "Link manipulation:",
+            "description": "Messages contain a link to a malicious site that looks like the official business but takes recipients to an attacker-controlled server where they are persuaded to authenticate into a spoofed login page that sends credentials to an attacker.",
+            "itemImage": "../images/phishing/ln.png"
+          },
+          {
+            "title": "Whaling (CEO fraud)",
+            "description": "These messages are typically sent to high-profile employees of a company to trick them into believing the CEO or other executive has requested to transfer money.",
+            "itemImage": "../images/phishing/wh.png"
+          },
+          {
+            "title": "Content injection",
+            "description": "An attacker who can inject malicious content into an official site will trick users into accessing the site to show them a malicious popup or redirect them to a phishing website.",
+            "itemImage": "../images/phishing/inj.png"
+          },
+          {
+            "title": "Malware",
+            "description": "Users tricked into clicking a link or opening an attachment might download malware onto their devices. Ransomware, rootkits or keyloggers are common malware attachments that steal data and extort payments from targeted victims.",
+            "itemImage": "../images/phishing/mal.png"
+          },
+          {
+            "title": "Smishing",
+            "description": "Using SMS messages, attackers trick users into accessing malicious sites from their smartphones. Attackers send a text message to a targeted victim with a malicious link that promises discounts, rewards or free prizes.",
+            "itemImage": "../images/phishing/sms.png"
+          },
+          {
+            "title": "Vishing",
+            "description": "Attackers use voice-changing software to leave a message telling targeted victims that they must call a number where they can be scammed. Voice changers are also used when speaking with targeted victims to disguise an attacker’s accent or gender so that they can pretend to be a fraudulent person.",
+            "itemImage": "../images/phishing/vish.png"
+          },
+          {
+            "title": "\"Evil Twin” Wi-Fi\"",
+            "description": "Spoofing free Wi-Fi, attackers trick users into connecting to a malicious hotspot to perform man-in-the-middle exploits.",
+            "itemImage": "../images/phishing/evil.png"
+          },
+          {
+            "title": "Pharming",
+            "description": "Pharming is a two-phase attack used to steal account credentials. The first phase installs malware on a targeted victim and redirects them to a browser and a spoofed website where they are tricked into divulging credentials. DNS poisoning is also used to redirect users to spoofed domains.",
+            "itemImage": "../images/phishing/phar.png"
+          },
+          {
+            "title": "Angler phishing",
+            "description": "Using social media, attackers reply to posts pretending to be an official organization and trick users into divulging account credentials and personal information.",
+            "itemImage": "../images/phishing/angler.png"
+          },
+          {
+            "title": "Watering hole",
+            "description": "A compromised site provides endless opportunities, so an attacker identifies a site used by numerous targeted users, exploits a vulnerability on the site, and uses it to trick users into downloading malware.",
+            "itemImage": "../images/phishing/water.png"
+          }
+        ],
+        "references": "Phishing.org"
+      },
+      {
+        "mainTitle": "Phishing Law Enforcement Authorities",
+        "mainImage": "../images/phishing/anti-phishing.jpg",
+        "items": [
+          {
+            "title": "Cybercrime Prevention Act of 2012: Computer-related Offenses",
+            "description": "This includes \"Computer-related Fraud\" and \"Computer-related Identity Theft,\" both of which can encompass phishing activities. Specifically, the unauthorized access and use of personal information or data for fraudulent purposes are considered crimes under this act.",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Data Privacy Act of 2012: Unauthorized Processing of Personal Information",
+            "description": "This is penalized with imprisonment and fines. Unauthorized processing can include activities where personal information is collected through deceptive means such as phishing.",
+            "itemImage": ""
+          },
+          {
+            "title": "",
+            "description": "",
+            "itemImage": ""
+          },
+          {
+            "title": "Data Privacy Act of 2012: Unauthorized Access or Intentional Breach",
+            "description": "Gaining unauthorized access to personal information systems, which phishing attacks often aim to achieve, is also penalized under this act.",
+            "itemImage": ""
+          }
+        ],
+        "references": "Republic Act No. 10173 (Data Privacy Act of 2012) & Republic Act No. 10175 (Cybercrime Act of 2012) "
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cyber Chronicles",
+    "description": "Cyber Chronicles: Journey through the Virtual Underworld is a compelling documentary that raises awareness about the pervasive threat of cybercrime by featuring poignant scenes of real-life victims and exploring the devastating impact of identity theft, online fraud, and data breaches.",
+    "video": "https://www.youtube.com/watch?feature=shared&fbclid=IwZXh0bgNhZW0CMTEAAR03PB0HX_23xErlHGrFVemNplTVXqGBv31lyoGtl2vs5j2CtU4cSDlpSoM_aem_sKnInOyDgdBCHdAwnZWBCg&v=525rqNOo-rs"
+  }
+]

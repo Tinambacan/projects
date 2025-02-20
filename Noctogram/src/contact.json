@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "John Steven Penecitos",
+    "number": "09091548796",
+    "email": "steven.penecitos123@gmail.com",
+    "image": "../images/js.png"
+  },
+  {
+    "id": 2,
+    "name": "Airon Villaruel",
+    "number": "09610890864",
+    "email": "aironvillaruel123@gmail.com",
+    "image": "../images/ai.png"
+  },
+  {
+    "id": 3,
+    "name": "Joselito Tinambacan",
+    "number": "09765404954",
+    "email": "joselito.tinambacan@gmail.com",
+    "image": "../images/jl.png"
+  }
+]

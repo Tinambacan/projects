@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '/resources/fontawesome/css/all.min.css';
+
+[x-cloak] {
+    display: none;
+}

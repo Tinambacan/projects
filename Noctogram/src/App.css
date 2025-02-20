@@ -1,0 +1,12 @@
+@import url('non.geist');
+@import url('non.geist/mono');
+
+
+body {
+  font-family: 'Geist Variable';
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

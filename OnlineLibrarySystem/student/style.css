@@ -1,0 +1,114 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+   
+  /* STUDENT LOGIN */
+  .student-login-container {
+    height: 500px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: 30px auto;
+    color: white;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.student-login-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.student-login-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.student-login-content input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 12px;
+}
+.radio-group p {
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  display: flex; /* Align radio buttons and label vertically */
+  flex-direction: column; /* Stack radio buttons below the label */
+  gap: 5px; /* Space between the "Login as:" text and the radio buttons */
+}
+
+/* Adjust the radio options container to keep buttons beside each other */
+.radio-options {
+  padding-right: 77px;
+  display: flex; /* Align radio buttons horizontally */
+  gap: 15px; /* Adds space between each radio button */
+  margin-top: 5px; /* Optional: Add space between the "Login as:" text and the options */
+}
+
+/* Keep the radio button and label aligned */
+.radio-options input[type="radio"] {
+  margin-right: 5px; /* Space between the radio button and label */
+}
+
+.radio-options label {
+  cursor: pointer; /* Makes labels clickable */
+}
+.student-login-content input:focus {
+    outline: none;
+    border: 2px solid #4c5c96;
+}
+
+.student-login-content button {
+    width: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.student-login-content button:hover {
+    background-color: gray;
+}
+
+.student-login-content .forgot-password,
+.student-login-content .signup-link {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.student-login-content .forgot-password:hover,
+.student-login-content .signup-link:hover {
+    text-decoration: underline;
+}
+
+  

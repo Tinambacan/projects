@@ -1,0 +1,60 @@
+import { defineConfig } from "vite";
+import laravel from "laravel-vite-plugin";
+
+export default defineConfig({
+    plugins: [
+        laravel({
+            input: [
+                "resources/css/app.css",
+                "resources/js/acc-settings.js",
+                "resources/js/act-logs.js",
+                "resources/js/admin-accounts.js",
+                "resources/js/admin-dashboard.js",
+                "resources/js/admin-lists.js",
+                "resources/js/ajax-start.js",
+                "resources/js/app.js",
+                "resources/js/archived-records.js",
+                "resources/js/back-browser.js",
+                "resources/js/chart.js",
+                "resources/js/change-temp-pass.js",
+                "resources/js/class-record-assess.js",
+                "resources/js/class-record-info-page.js",
+                "resources/js/classrecord-info.js",
+                "resources/js/classrecord.js",
+                "resources/js/classrecordlayout.js",
+                "resources/js/error-page.js",
+                "resources/js/faculty-loads.js",
+                "resources/js/feedbacks.js",
+                "resources/js/file-submit.js",
+                "resources/js/grades.js",
+                "resources/js/information.js",
+                "resources/js/login.js",
+                "resources/js/modal.js",
+                "resources/js/programlist.js",
+                "resources/js/reports.js",
+                "resources/js/reset-pass.js",
+                "resources/js/stud-class-record.js",
+                "resources/js/stud-record-details.js",
+                "resources/js/superadmin-accounts.js",
+                "resources/js/superadmin-branches.js",
+                "resources/js/top-navbar.js",
+                "resources/js/web-config.js",
+                "resources/js/class-record-quiz.js",
+                // "resources/js/toastr.js",
+                // "resources/css/toastr.css",
+                "resources/css/dataTable.css",
+                "resources/fontawesome/css/all.min.css",
+            ],
+            refresh: true,
+        }),
+    ],
+    server: {
+        proxy: {
+            "/send-notice": {
+                target: "https://test-ecrs.puptcapstone.com",
+                changeOrigin: true,
+                secure: false,
+            },
+        },
+    },
+});

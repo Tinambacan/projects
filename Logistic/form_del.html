@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Add Delivery</title>
+    <style>
+      .modal {
+        display: none; 
+        position: fixed; 
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgba(0,0,0,0.4); 
+      }
+      .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Add Delivery Information</h2>
+    <form id="deliveryForm" 
+          action="controller/request-delivery-api.php"method="POST">
+      <label for="srcAddress">Source Address:</label><br>
+      <input type="text" id="srcAddress" name="srcAddress"><br>
+
+      <label for="sourceName">Source Name:</label><br>
+      <input type="text" id="sourceName" name="sourceName"><br>
+
+      <label for="destAddress">Destination Address:</label><br>
+      <input type="text" id="destAddress" name="destAddress"><br>
+
+      <label for="receiverName">Receiver Name:</label><br>
+      <input type="text" id="receiverName" name="receiverName"><br>
+    <input type="submit" value="Submit">
+    </form>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modalResponse"></p>
+      </div>
+    </div>
+  <script>
+      document.getElementById('deliveryForm').addEventListener
+        ('submit', function(event) {
+        event.preventDefault(); 
+        
+        var formData = new FormData(this); 
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'https://cybertechlogistic.online/app/controller/request-delivery-api.php', true);
+        xhr.onload = function() {
+          if (xhr.status === 200) {
+            var response = JSON.parse(xhr.responseText);
+            document.getElementById('modalResponse').innerHTML
+            = response.message;
+            document.getElementById('myModal').style.display = 'block';
+          } else {
+            console.error('Error occurred.');
+          }
+        };
+        xhr.onerror = function() {
+          console.error('Request failed.');
+        };
+        xhr.send(formData);
+      });
+
+      // Close the modal when the user clicks on (x)
+      document.getElementsByClassName('close')[0].addEventListener
+        ('click', function() {document.getElementById
+          ('myModal').style.display = 'none';
+      });
+
+      // Close the modal when the user clicks outside the modal content
+      window.onclick = function(event) {
+        var modal = document.getElementById('myModal');
+        if (event.target == modal) {
+          modal.style.display = 'none';
+        }
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,261 @@
+{
+  "node_modules/non.geist/fonts/mono/GeistMonoVariableVF.woff2": {
+    "file": "assets/GeistMonoVariableVF-bOGSM49p.woff2",
+    "src": "node_modules/non.geist/fonts/mono/GeistMonoVariableVF.woff2"
+  },
+  "node_modules/non.geist/fonts/sans/GeistVariableVF.woff2": {
+    "file": "assets/GeistVariableVF-p2GUc8qZ.woff2",
+    "src": "node_modules/non.geist/fonts/sans/GeistVariableVF.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-C387huWG.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/dataTable.css": {
+    "file": "assets/dataTable-C_d8OY9n.css",
+    "src": "resources/css/dataTable.css",
+    "isEntry": true
+  },
+  "resources/fontawesome/css/all.min.css": {
+    "file": "assets/all-CFc3oGQc.css",
+    "src": "resources/fontawesome/css/all.min.css",
+    "isEntry": true
+  },
+  "resources/fontawesome/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-D7HcTrzQ.ttf",
+    "src": "resources/fontawesome/webfonts/fa-brands-400.ttf"
+  },
+  "resources/fontawesome/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-C-jaCRNI.woff2",
+    "src": "resources/fontawesome/webfonts/fa-brands-400.woff2"
+  },
+  "resources/fontawesome/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-BSSd-Tma.ttf",
+    "src": "resources/fontawesome/webfonts/fa-regular-400.ttf"
+  },
+  "resources/fontawesome/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-TCCU0xbi.woff2",
+    "src": "resources/fontawesome/webfonts/fa-regular-400.woff2"
+  },
+  "resources/fontawesome/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-f4MajOib.ttf",
+    "src": "resources/fontawesome/webfonts/fa-solid-900.ttf"
+  },
+  "resources/fontawesome/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-tLH6XCuf.woff2",
+    "src": "resources/fontawesome/webfonts/fa-solid-900.woff2"
+  },
+  "resources/fontawesome/webfonts/fa-v4compatibility.ttf": {
+    "file": "assets/fa-v4compatibility-Ac5Ki1KR.ttf",
+    "src": "resources/fontawesome/webfonts/fa-v4compatibility.ttf"
+  },
+  "resources/fontawesome/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility-BajFMAgw.woff2",
+    "src": "resources/fontawesome/webfonts/fa-v4compatibility.woff2"
+  },
+  "resources/js/acc-settings.js": {
+    "file": "assets/acc-settings-B3zMQXmR.js",
+    "name": "acc-settings",
+    "src": "resources/js/acc-settings.js",
+    "isEntry": true
+  },
+  "resources/js/act-logs.js": {
+    "file": "assets/act-logs-DnMq0otL.js",
+    "name": "act-logs",
+    "src": "resources/js/act-logs.js",
+    "isEntry": true
+  },
+  "resources/js/admin-accounts.js": {
+    "file": "assets/admin-accounts-uxz0S8Nn.js",
+    "name": "admin-accounts",
+    "src": "resources/js/admin-accounts.js",
+    "isEntry": true
+  },
+  "resources/js/admin-dashboard.js": {
+    "file": "assets/admin-dashboard-5OfX4Q_I.js",
+    "name": "admin-dashboard",
+    "src": "resources/js/admin-dashboard.js",
+    "isEntry": true
+  },
+  "resources/js/admin-lists.js": {
+    "file": "assets/admin-lists-D6Gl4KDN.js",
+    "name": "admin-lists",
+    "src": "resources/js/admin-lists.js",
+    "isEntry": true
+  },
+  "resources/js/ajax-start.js": {
+    "file": "assets/ajax-start-CZNogVE9.js",
+    "name": "ajax-start",
+    "src": "resources/js/ajax-start.js",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CdCPFpL6.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/archived-records.js": {
+    "file": "assets/archived-records-BFV-eQAc.js",
+    "name": "archived-records",
+    "src": "resources/js/archived-records.js",
+    "isEntry": true
+  },
+  "resources/js/back-browser.js": {
+    "file": "assets/back-browser-YWNCRxkg.js",
+    "name": "back-browser",
+    "src": "resources/js/back-browser.js",
+    "isEntry": true
+  },
+  "resources/js/change-temp-pass.js": {
+    "file": "assets/change-temp-pass-ijmkA517.js",
+    "name": "change-temp-pass",
+    "src": "resources/js/change-temp-pass.js",
+    "isEntry": true
+  },
+  "resources/js/chart.js": {
+    "file": "assets/chart-C0URfnDI.js",
+    "name": "chart",
+    "src": "resources/js/chart.js",
+    "isEntry": true
+  },
+  "resources/js/class-record-assess.js": {
+    "file": "assets/class-record-assess-BhWLOvG_.js",
+    "name": "class-record-assess",
+    "src": "resources/js/class-record-assess.js",
+    "isEntry": true
+  },
+  "resources/js/class-record-info-page.js": {
+    "file": "assets/class-record-info-page-CGsqmW33.js",
+    "name": "class-record-info-page",
+    "src": "resources/js/class-record-info-page.js",
+    "isEntry": true
+  },
+  "resources/js/class-record-quiz.js": {
+    "file": "assets/class-record-quiz-zwHvNpxP.js",
+    "name": "class-record-quiz",
+    "src": "resources/js/class-record-quiz.js",
+    "isEntry": true
+  },
+  "resources/js/classrecord-info.js": {
+    "file": "assets/classrecord-info-kN__BnSC.js",
+    "name": "classrecord-info",
+    "src": "resources/js/classrecord-info.js",
+    "isEntry": true
+  },
+  "resources/js/classrecord.js": {
+    "file": "assets/classrecord-3XB-tbiy.js",
+    "name": "classrecord",
+    "src": "resources/js/classrecord.js",
+    "isEntry": true
+  },
+  "resources/js/classrecordlayout.js": {
+    "file": "assets/classrecordlayout-B7sIs_G2.js",
+    "name": "classrecordlayout",
+    "src": "resources/js/classrecordlayout.js",
+    "isEntry": true
+  },
+  "resources/js/error-page.js": {
+    "file": "assets/error-page-l0sNRNKZ.js",
+    "name": "error-page",
+    "src": "resources/js/error-page.js",
+    "isEntry": true
+  },
+  "resources/js/faculty-loads.js": {
+    "file": "assets/faculty-loads-57HLN0sb.js",
+    "name": "faculty-loads",
+    "src": "resources/js/faculty-loads.js",
+    "isEntry": true
+  },
+  "resources/js/feedbacks.js": {
+    "file": "assets/feedbacks-C8-2HAfb.js",
+    "name": "feedbacks",
+    "src": "resources/js/feedbacks.js",
+    "isEntry": true
+  },
+  "resources/js/file-submit.js": {
+    "file": "assets/file-submit-CMtYoJTb.js",
+    "name": "file-submit",
+    "src": "resources/js/file-submit.js",
+    "isEntry": true
+  },
+  "resources/js/grades.js": {
+    "file": "assets/grades-Bf8AwkQ3.js",
+    "name": "grades",
+    "src": "resources/js/grades.js",
+    "isEntry": true
+  },
+  "resources/js/information.js": {
+    "file": "assets/information-BBpola57.js",
+    "name": "information",
+    "src": "resources/js/information.js",
+    "isEntry": true
+  },
+  "resources/js/login.js": {
+    "file": "assets/login-DSKTNf-_.js",
+    "name": "login",
+    "src": "resources/js/login.js",
+    "isEntry": true
+  },
+  "resources/js/modal.js": {
+    "file": "assets/modal-VwlNP2An.js",
+    "name": "modal",
+    "src": "resources/js/modal.js",
+    "isEntry": true
+  },
+  "resources/js/programlist.js": {
+    "file": "assets/programlist-l0sNRNKZ.js",
+    "name": "programlist",
+    "src": "resources/js/programlist.js",
+    "isEntry": true
+  },
+  "resources/js/reports.js": {
+    "file": "assets/reports-CL4XC2fj.js",
+    "name": "reports",
+    "src": "resources/js/reports.js",
+    "isEntry": true
+  },
+  "resources/js/reset-pass.js": {
+    "file": "assets/reset-pass-Da_MrMO_.js",
+    "name": "reset-pass",
+    "src": "resources/js/reset-pass.js",
+    "isEntry": true
+  },
+  "resources/js/stud-class-record.js": {
+    "file": "assets/stud-class-record-DM8X9nk1.js",
+    "name": "stud-class-record",
+    "src": "resources/js/stud-class-record.js",
+    "isEntry": true
+  },
+  "resources/js/stud-record-details.js": {
+    "file": "assets/stud-record-details-Uijw0Nhb.js",
+    "name": "stud-record-details",
+    "src": "resources/js/stud-record-details.js",
+    "isEntry": true
+  },
+  "resources/js/superadmin-accounts.js": {
+    "file": "assets/superadmin-accounts-CHxSPc2q.js",
+    "name": "superadmin-accounts",
+    "src": "resources/js/superadmin-accounts.js",
+    "isEntry": true
+  },
+  "resources/js/superadmin-branches.js": {
+    "file": "assets/superadmin-branches-CnOywLTh.js",
+    "name": "superadmin-branches",
+    "src": "resources/js/superadmin-branches.js",
+    "isEntry": true
+  },
+  "resources/js/top-navbar.js": {
+    "file": "assets/top-navbar-BsIhkJVc.js",
+    "name": "top-navbar",
+    "src": "resources/js/top-navbar.js",
+    "isEntry": true
+  },
+  "resources/js/web-config.js": {
+    "file": "assets/web-config-wVSxLwF0.js",
+    "name": "web-config",
+    "src": "resources/js/web-config.js",
+    "isEntry": true
+  }
+}

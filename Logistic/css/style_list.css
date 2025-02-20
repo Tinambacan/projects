@@ -1,0 +1,249 @@
+table {
+    width: 100%;   
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #979494;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    margin-top: 20px;
+}
+
+.pagination .active {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 8px 12px; /* Add padding for a more clickable area */
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #ddd;
+}
+  
+/* thead {
+    background-color: #071c2b;
+    color: white;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+} */
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.partner-box {
+    background-color: #546CA1;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.partner-box h3 {
+    margin: 0;
+    width: 30%;
+}
+
+.input-tracking {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 8px; 
+}
+
+.fa-filter {
+    margin: 5px; 
+}
+
+.partner-box input {
+    padding: 8px;
+}
+
+/* Add some spacing between cells */
+th, td {
+    padding: 12px 15px;
+}
+
+/* Style the table header cells */
+th {
+    padding: 15px;
+    background-color: #546CA1;
+    color: white;
+    border-radius: 1px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+tbody tr:hover {
+    background-color: #e2e7ed;
+}
+
+/* Style the status column */
+/* Style the status column */
+/* Style the status column */
+td.status-column {
+    font-weight: bold;
+    color: #27ae60; /* Green color for success status */
+    cursor: pointer;
+}
+
+/* Add a hover effect for the status column */
+td.status-column:hover {
+    background-color: #28b870; /* Lighter green color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+
+/* Style the modal */
+/* Add styles for the modal */
+.modals {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto; 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-contlist {
+    background-color: #e2e7ed;
+    color: #333;
+    line-height: 1.6;
+    margin: 5% auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 60%;
+    max-width: 600px; /* Set a max-width for better responsiveness */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    font-size: 14px;
+    overflow-y: auto;   
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    z-index: 3; /* Set a higher z-index to keep the close button above other content */
+    transition: color 0.3s ease; /* Smooth transition effect for color change */
+}
+
+.close:hover,
+.close:focus {
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Style the title of the modal */
+.modal-contlist h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-bottom: 2px solid #7b8a9f;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+/* Style the list inside the modal */
+.modal-contlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style each item in the list */
+.modal-contlist li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Add a border to separate list items */
+.modal-contlist li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Add some spacing for better readability */
+.modal-contlist p {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+}
+
+/* Add a specific style for the "Pending" status */
+td.pending-status {
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+
+/* Add a hover effect for the "Pending" status column */
+td.pending-status:hover {
+    background-color: #d41313; /* Lighter red color on hover */
+    color: #d2c7c7; /* Change text color on hover */
+}
+td.in-transit-status {
+    font-weight: bold;
+    color: blue; /* Blue color for In Transit status */
+    cursor: pointer;
+}
+
+/* Add a hover effect for the "In Transit" status column */
+td.in-transit-status:hover {
+    background-color: #3498db; /* Lighter blue color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Add a specific style for the "Shipped Out" status */
+td.shipped-out-status {
+    font-weight: bold;
+    color: orange; /* Orange color for Shipped Out status */
+    cursor: pointer;
+}
+
+/* Add a hover effect for the "Shipped Out" status column */
+td.shipped-out-status:hover {
+    background-color: #ff8c00; /* Lighter orange color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Add a specific style for the "Delivered" status */
+td.delivered-status {
+    font-weight: bold;
+    color: green; /* Green color for Delivered status */
+    cursor: pointer;
+}
+
+/* Add a hover effect for the "Delivered" status column */
+td.delivered-status:hover {
+    background-color: #2ecc71; /* Lighter green color on hover */
+    color: #fff; /* Change text color on hover */
+}

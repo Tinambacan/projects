@@ -1,0 +1,73 @@
+{
+    "pupt_faculty_schedules": {
+        "academic_year_start": 2024,
+        "academic_year_end": 2025,
+        "semester": 2,
+        "start_date": "2025-03-03",
+        "end_date": "2025-07-18",
+        "faculties": [
+            {
+                "faculty_id": 1,
+                "last_name": "Martinez",
+                "first_name": "Emmanuel",
+                "middle_name": "Quinco",
+                "suffix_name": null,
+                "faculty_code": "FA0069TG2025",
+                "faculty_type": "Full-time (Permanent)",
+                "assigned_units": 12,
+                "schedules": [
+                    {
+                        "day": "Monday",
+                        "start_time": "08:00:00",
+                        "end_time": "10:00:00",
+                        "room_code": "A101",
+                        "program_code": "BSIT",
+                        "program_title": "Bachelor of Science in IT",
+                        "year_level": 2,
+                        "section_name": "A",
+                        "course_details": {
+                            "course_assignment_id": 1,
+                            "course_title": "Data Communications and Networking",
+                            "course_code": "COMP 20173",
+                            "lec": 2,
+                            "lab": 1,
+                            "units": 3,
+                            "tuition_hours": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "faculty_id": 2,
+                "last_name": "Cruz",
+                "first_name": "Maria",
+                "middle_name": "Ana",
+                "suffix_name": null,
+                "faculty_code": "FA0002TG2024",
+                "faculty_type": "Part-time",
+                "assigned_units": 6,
+                "schedules": [
+                    {
+                        "day": "Tuesday",
+                        "start_time": "13:00:00",
+                        "end_time": "15:00:00",
+                        "room_code": "B102",
+                        "program_code": "BSIT",
+                        "program_title": "Bachelor of Science in Computer Science",
+                        "year_level": 3,
+                        "section_name": "B",
+                        "course_details": {
+                            "course_assignment_id": 2,
+                            "course_title": "Data Structures",
+                            "course_code": "COMP 20063",
+                            "lec": 3,
+                            "lab": 0,
+                            "units": 3,
+                            "tuition_hours": 3
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
